@@ -1,0 +1,41 @@
+.item {
+    padding: 6px 10px 6px 10px;
+    font-size: 1rem;
+    margin: 5px;
+    border: 1px solid;
+    display: flex;
+}
+
+.item-text {
+    padding-left: 10px;
+}
+
+.item-pic {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 70px;
+    flex-shrink:0;
+}
+.tag-book li{
+    display: inline-block;
+    margin: 0 6px;
+    padding: 4px;
+    color: #fff;
+    background-color: rgb(166,50,90);
+    border:1px solid;
+    border-radius:10px;
+}
+.tag-movie li{
+    display: inline-block;
+    margin: 0 6px;
+    padding: 4px;
+    color: #fff;
+    background-color: rgb(255,153,0);
+    border:1px solid;
+    border-radius:10px;
+}
+.author li{
+    display: inline-block;
+    margin: 0 10px;
+}
